@@ -1,0 +1,75 @@
+[versions]
+agp = "8.3.1"
+coilCompose = "2.4.0"
+coreTesting = "2.2.0"
+credentials = "1.5.0-beta01"
+exoplayer = "2.16.1"
+firebaseBom = "33.7.0"
+firebaseStorage = "20.3.0"
+gson = "2.11.0"
+koinVersion = "3.4.0"
+kotlin = "1.9.0"
+coreKtx = "1.15.0"
+junit = "4.14-SNAPSHOT"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinxCoroutinesAndroid = "1.7.3"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2023.08.00"
+navigationCompose = "2.8.5"
+lifecycleViewmodelCompose = "2.8.7"
+playServicesAuth = "21.3.0"
+roomVersion = "2.6.1"
+kspPlugin = "1.9.0-1.0.12"
+googleServices = "4.4.2"
+googleId = "1.1.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
+androidx-credentials = { module = "androidx.credentials:credentials", version.ref = "credentials" }
+androidx-credentials-play-services-auth = { module = "androidx.credentials:credentials-play-services-auth", version.ref = "credentials" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
+googleid = {module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "googleId"}
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "roomVersion" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "roomVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-auth-ktx = {module = "com.google.firebase:firebase-auth-ktx"}
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinVersion" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinVersion" }
+koin-test-junit4 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koinVersion" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomVersion" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVersion" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomVersion" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref="kspPlugin" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+
+
+
